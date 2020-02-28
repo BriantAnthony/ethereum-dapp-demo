@@ -10,7 +10,7 @@
     "dev": "lite-server",
     "update": "truffle migrate",
     "deploy-contract": "truffle migrate --network ropsten",
-    "deploy-web": "now",
+    "deploy-web": "now --prod",
     "reset-testnet": "truffle migrate --network ropsten --reset",
     "test": "truffle test"
   },
