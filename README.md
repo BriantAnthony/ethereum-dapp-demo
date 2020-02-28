@@ -132,4 +132,9 @@ You can also reset the testnet with another command:
 
     truffle migrate --network ropsten --reset
 
+Be sure to re-deploy your frontend if you reset the testnet, because your frontend would be pointing to your old smart contract until your frontend is updated to the latest contract.
+
+    cd src
+    now --prod
+
 There are also shortcuts located inside the package.json file. That concludes this demonstration!
