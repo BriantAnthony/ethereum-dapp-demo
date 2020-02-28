@@ -1,4 +1,4 @@
 .env
-.github/*
-build/*
-node_modules/*
+/.github
+/build
+/node_modules

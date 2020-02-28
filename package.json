@@ -8,7 +8,11 @@
   },
   "scripts": {
     "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update": "truffle migrate",
+    "deploy-contract": "truffle migrate --network ropsten",
+    "deploy-web": "now",
+    "reset-testnet": "truffle migrate --network ropsten --reset",
+    "test": "truffle test"
   },
   "author": "",
   "license": "ISC",
