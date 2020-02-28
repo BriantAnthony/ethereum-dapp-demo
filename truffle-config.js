@@ -22,8 +22,6 @@ require('dotenv').config(); // reads environment variables in .env file
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const infuraKey = process.env.INFURA_KEY; // Use an env variable in any production environment
 
-const fs = require('fs');
-// const mnemonic = fs.readFileSync(".secret").toString().trim();
 const mnemonic = process.env.MNEMONIC;
 module.exports = {
   /**
