@@ -8,10 +8,10 @@
   },
   "scripts": {
     "dev": "lite-server",
-    "update": "truffle migrate",
-    "deploy-contract": "truffle migrate --network ropsten",
-    "deploy-web": "now --prod",
+    "update-dev": "truffle migrate",
+    "update-testnet": "truffle migrate --network ropsten",
     "reset-testnet": "truffle migrate --network ropsten --reset",
+    "deploy-web": "now --prod",
     "test": "truffle test"
   },
   "author": "",
