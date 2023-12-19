@@ -20,7 +20,7 @@
     "lite-server": "^2.3.0"
   },
   "dependencies": {
-    "@truffle/hdwallet-provider": "^1.0.32",
+    "@truffle/hdwallet-provider": "^1.2.4",
     "dotenv": "^8.2.0"
   }
 }
